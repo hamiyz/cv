@@ -1,0 +1,21 @@
+body {
+    animation: hami 5s infinite
+    alternate linear
+}
+@keyframes hami {
+    0%{
+        background:rgb(255, 121, 121);
+    }
+   25%{
+        background:rgb(252, 255, 78);
+    }
+    50%{
+        background:rgb(69, 255, 100);
+    }
+   75%{
+        background:rgb(66, 141, 255);
+    }
+    100%{
+        background:rgb(255, 58, 229);
+    }
+}   
